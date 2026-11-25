@@ -217,8 +217,6 @@ rebuild_firmware() {
         luci-mod-status luci-mod-system luci-proto-3g luci-proto-ipip luci-proto-ipv6 \
         luci-proto-ncm luci-proto-openconnect luci-proto-ppp luci-proto-qmi luci-proto-relay \
         luci-app-amlogic \
-        -luci-app-ddns -ddns-scripts -ddns-scripts-services \
-        -luci-app-frpc -frpc -luci-app-frps -frps \
         \
         ${config_list} \
         "
